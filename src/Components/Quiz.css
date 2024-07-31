@@ -1,0 +1,75 @@
+/* css file for the component quiz */
+
+.container{
+  width: 650px;
+  margin: auto;
+  margin-top: 25px;
+  background: white;
+  color: #262626;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 20px 25px;
+  }
+  
+  
+  /* for the horizontal line */
+  .container hr{
+  height: 2px;
+  border: none;
+  background:
+  #707070;
+  }
+  
+  /* for the question */
+  .container h2{
+  font-size: 23px;
+  font-weight: 500;
+  }
+  
+  
+  /* for the options */
+  .container ul li{
+  display: flex;
+  align-items: center; 
+  height: 70px;
+  padding-left: 18px;
+  border: 1px solid #686868;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  }
+  
+  /* for the next button */
+  .container button{
+  margin: auto;
+  width: 200px;
+  height: 50px;
+  background: #553f9a;
+  color: #fff; 
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 8px; 
+  cursor: pointer;
+  }
+  
+  /* for the x out of 5 questions */
+  
+  .container .index{
+    margin : auto;
+    margin-bottom : 0px;
+    font-size : 18px;
+    font-weight: 300;
+  }
+  
+  .container .correct{
+  background:#dffff2;
+  border-color: #00d397;
+  }
+  .container .wrong{
+  background: #FFEBEB;
+  border-color: #FF4A4A;
+  }
+  
